@@ -1,0 +1,28 @@
+<!--Info to the browser about what doc type to expect-->
+<!--In this case we expect HTML-->
+<!DOCTYPE html>
+
+<!--Specifies what lang majority of the content is written in-->
+<!--But doesn't mean we cannot showcase other langs on the site-->
+<!--This is mainly for SEO-->
+<html lang="en">
+  <!--All the visible content on the page should be within the body-->
+  <body>
+    <!--Indicates main topic-->
+    <main>My amazing Twitter clone website</main>
+
+    <!--Indicates a big/major section on a web page as the font appears larger and in bold-->
+    <h1>Create Tweet Here!</h1>
+
+    <!--Indicating the action to take when user clicks 'submit' button-->
+    <!--Client will POST to /submit-->
+    <form action="/submit" method="POST">
+      <!--Creating a text field for users to input text, name=tweets means use 'tweet' as the key of the 
+        key value pair during x-www-form-urlencoded form submission-->
+      <input type="text" name="tweet" required />
+
+      <!--When you click 'submit', browser uses POST method to send your input to the server via /submit-->
+      <input type="submit" value="Submit!" />
+    </form>
+  </body>
+</html>

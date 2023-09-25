@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "name": "twitter",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
